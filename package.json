@@ -20,7 +20,10 @@
     "@angular/platform-browser": "~7.0.0",
     "@angular/platform-browser-dynamic": "~7.0.0",
     "@angular/router": "~7.0.0",
+    "aws-amplify": "^1.1.7",
+    "aws-amplify-angular": "^2.0.10",
     "core-js": "^2.5.4",
+    "ionic-angular": "^3.9.2",
     "rxjs": "~6.3.3",
     "zone.js": "~0.8.26"
   },
