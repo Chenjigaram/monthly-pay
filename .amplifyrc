@@ -1,0 +1,14 @@
+{
+    "providers": {
+        "awscloudformation": {
+            "AuthRoleName": "monthlypay-20181024212925-authRole",
+            "UnauthRoleArn": "arn:aws:iam::311444964019:role/monthlypay-20181024212925-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::311444964019:role/monthlypay-20181024212925-authRole",
+            "Region": "us-east-1",
+            "DeploymentBucketName": "monthlypay-20181024212925-deployment",
+            "UnauthRoleName": "monthlypay-20181024212925-unauthRole",
+            "StackName": "monthlypay-20181024212925",
+            "StackId": "arn:aws:cloudformation:us-east-1:311444964019:stack/monthlypay-20181024212925/1e74dd50-d7c3-11e8-8120-500c21998436"
+        }
+    }
+}

@@ -1,0 +1,54 @@
+{
+	"providers": {
+		"awscloudformation": {
+			"AuthRoleName": "monthlypay-20181024212925-authRole",
+			"UnauthRoleArn": "arn:aws:iam::311444964019:role/monthlypay-20181024212925-unauthRole",
+			"AuthRoleArn": "arn:aws:iam::311444964019:role/monthlypay-20181024212925-authRole",
+			"Region": "us-east-1",
+			"DeploymentBucketName": "monthlypay-20181024212925-deployment",
+			"UnauthRoleName": "monthlypay-20181024212925-unauthRole",
+			"StackName": "monthlypay-20181024212925",
+			"StackId": "arn:aws:cloudformation:us-east-1:311444964019:stack/monthlypay-20181024212925/1e74dd50-d7c3-11e8-8120-500c21998436"
+		}
+	},
+	"auth": {
+		"cognitobba98655": {
+			"service": "Cognito",
+			"providerPlugin": "awscloudformation",
+			"providerMetadata": {
+				"s3TemplateURL": "https://s3.amazonaws.com/monthlypay-20181024212925-deployment/amplify-cfn-templates/auth/cognitobba98655-cloudformation-template.yml",
+				"logicalId": "authcognitobba98655"
+			},
+			"lastPushTimeStamp": "2018-10-24T19:36:43.320Z",
+			"output": {
+				"AppClientSecret": "1p79eq5rtipri9d33nv81ppcmroesscaa1qsborm8u9076mrh1j3",
+				"UserPoolId": "us-east-1_Fxasr5zPe",
+				"AppClientIDWeb": "4cqbsm0v45fj1la97t8890jl9a",
+				"AppClientID": "3agc6k7qhsdc0qla9h55l5nke7",
+				"IdentityPoolId": "us-east-1:5735030f-4c03-47ee-9c72-54bbf890d68d",
+				"IdentityPoolName": "cognitobba98655_identitypool_bba98655",
+				"UserPoolName": "cognitobba98655_userpool_bba98655"
+			},
+			"lastPushDirHash": "XkrXs5iWCNC4sH7Phtkv++GtDr8="
+		}
+	},
+	"storage": {
+		"amplifyDB": {
+			"service": "DynamoDB",
+			"providerPlugin": "awscloudformation",
+			"providerMetadata": {
+				"s3TemplateURL": "https://s3.amazonaws.com/monthlypay-20181024212925-deployment/amplify-cfn-templates/storage/amplifyDB-cloudformation-template.json",
+				"logicalId": "storageamplifyDB"
+			},
+			"lastPushTimeStamp": "2018-10-24T19:36:43.320Z",
+			"output": {
+				"PartitionKeyName": "username",
+				"Region": "us-east-1",
+				"Arn": "arn:aws:dynamodb:us-east-1:311444964019:table/Users",
+				"PartitionKeyType": "S",
+				"Name": "Users"
+			},
+			"lastPushDirHash": "Hc4u75ChLbL2Ncud8CfjVOFMQ1Y="
+		}
+	}
+}
